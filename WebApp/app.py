@@ -1,6 +1,6 @@
 # --> Web App/app.py
 
-from flask import Flask, render_template#, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
@@ -10,9 +10,9 @@ def index():
     return render_template('base.html')
 
 
-@app.route('/about')
+@app.route('/layout')
 def about():
-    return render_template('about.html')
+    return render_template('layout.html')
 
 
 @app.route('/predict', methods=['POST'])
