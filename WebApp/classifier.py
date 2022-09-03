@@ -47,7 +47,7 @@ from lightgbm import plot_importance
 #    plt.show()
 
 
-model = pickle.load(open('finalized_model.sav', 'rb'))
+model = pickle.load(open('classification_model.sav', 'rb'))
 
 # Load Model
 filename = 'classification_model.sav'
