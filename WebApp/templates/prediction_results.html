@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    
+    <h2>Results!</h2>
+
+    <p>Between '@{{ feature_a }}' and '@{{ feature_b }}',
+        the customer who is most likely to have committed 
+        '{{ fraud_text }}' is '@{{ cusomer_most_likely }}'
+    </p>
+
+    <p>Here are the probabilities for each customer:</p>
+      
+    <ul>
+        <li>@{{ feature_a }}: {{ feature_a_prob }}</li>
+        <li>@{{ feature_b }}: {{ feature_b_prob }}</li>
+    </ul>
+
+</body>
+</html>
