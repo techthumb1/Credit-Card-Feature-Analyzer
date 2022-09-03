@@ -1,3 +1,5 @@
+# Path: WebApp/routes/home_routes.py
+
 from flask import Blueprint
 
 home_routes = Blueprint("home_routes", __name__)
@@ -10,5 +12,3 @@ def index():
 def about():
     print('Visiting the about page')
     return "About me"
-
-# Path: WebApp/routes/home_routes.py

@@ -7,6 +7,8 @@ name = "pypi"
 flask = "==2.1.0"
 flask-sqlalchemy = "*"
 jinja2 = "==3.0.0"
+pandas = "*"
+lightgbm = "*"
 
 [dev-packages]
 
