@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, request, render_template #, flash, redirect
+from flask import Blueprint, jsonify, request, render_template # flash, redirect
 
 feature_routes = Blueprint("feature_routes", __name__)
 
@@ -33,5 +33,5 @@ def create_feature():
         "message": "FEATURE CREATED SUCCESSFULLY",
         "feature": dict(request.form)
     })
-    #flash(f"features '{new_feature.title}' created successfully!", "success")
-    #return redirect(f"/features")
+#flash(f"features '{new_feature.title}' created successfully!", "success")
+#return redirect(f"/features")

@@ -10,8 +10,8 @@ def index():
     return render_template('base.html')
 
 
-@app.route('/layout')
-def about():
+@app.route('/features')
+def features():
     return render_template('layout.html')
 
 

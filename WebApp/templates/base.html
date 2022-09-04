@@ -18,6 +18,33 @@
     </nav>
     <article class="flex two" style="padding: 3em 1em;">
       {% block content %}
+      <div>
+        <h1>{{ title }}</h1>
+        <form action="/compare" method="post">
+          <select name="customer1">
+            {% for customer in customers %}
+            <option value="{{ customer.name }}">{{ customer.name }}</option>
+            {% endfor %}
+          </select>
+          <select name="customer2">
+            {% for customer in customers %}
+            <option value="{{ customer.name }}">{{ customer.name }}</option>
+            {% endfor %}
+          </select>
+          <input type="text" name="fraud_text" placeholder="Feature to predict possible fraud">
+          <input type="submit" value="Compare Customer">
+        </form>
+      </div>
+      <div>
+        <h2>Customers</h2>
+        {% for customer in customers %}
+        <a href="/customer/{{ customer.name }}"><span class="stack">{{ customer.name }}</span></a>
+        {% endfor %}
+        <form action="/customer" method="post">
+          <input type="text" name="customer_name" placeholder="Customer to add">
+          <input type="submit" value="Add Customer">
+        </form>
+      </div>
       {% endblock %}
     </article>
     <!-- <script src="https://cdn.jsdelivr.net/npm/umbrellajs"/> -->

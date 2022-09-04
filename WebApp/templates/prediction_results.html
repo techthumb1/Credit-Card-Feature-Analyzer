@@ -8,11 +8,9 @@
 </head>
 <body>
 
-
-    
     <h2>Results!</h2>
 
-    <p>Between '@{{ feature_a }}' and '@{{ feature_b }}',
+    <p>Between '@{{ customer_a }}' and '@{{ customer_b }}',
         the customer who is most likely to have committed 
         '{{ fraud_text }}' is '@{{ cusomer_most_likely }}'
     </p>
@@ -20,8 +18,8 @@
     <p>Here are the probabilities for each customer:</p>
       
     <ul>
-        <li>@{{ feature_a }}: {{ feature_a_prob }}</li>
-        <li>@{{ feature_b }}: {{ feature_b_prob }}</li>
+        <li>@{{ customer_a }}: {{ customer_a_prob }}</li>
+        <li>@{{ customer_b }}: {{ customer_b_prob }}</li>
     </ul>
 
 </body>
