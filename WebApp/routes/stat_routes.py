@@ -1,7 +1,7 @@
 # web_app/routes/stat_routes.py
 
-from flask import Blueprint, request, jsonify, render_template
-from sklearn.linear_model import LogisticRegression # for example
+from flask import Blueprint, request, render_template
+from sklearn.linear_model import LogisticRegression 
 
 stat_routes = Blueprint("stat_routes", __name__)
 
@@ -14,19 +14,15 @@ def predict():
     customer_b = request.form["customer_b"]
     fraud_text = request.form["fraud_text"]
 
-#    print("-----------------")
-#    print("FETCHING TWEETS FROM THE DATABASE...")
-#   
-#    #TODO
-#
-#    print("-----------------")
-#    print("TRAINING THE MODEL...")
-#    
-#    classifier = LogisticRegression()
-#    # TODO: classifier.fit(___________, ___________)
-#
-#    print("-----------------")
-#    print("MAKING A PREDICTION...")
+    print("-----------------")
+    print("TRAINING THE MODEL...")
+    X, y = MODEL_FILEPATH(return_X_y=True)
+    
+    classifier = LogisticRegression()
+    classifier.fit(X, y)
+
+    print("-----------------")
+    print("MAKING A PREDICTION...")
     result_a = classifier.predict([customer_a].embedding)
     result_b = classifier.predict([customer_b].embedding)    
     print("RESULT:", result_a, result_b)

@@ -7,17 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- This file will support our model output for each customer-->
     <h2>Prediction Time</h2>
+
     <p>Determine if transaction is fraud or not fraud</p>
+
     <form action="/predict" method="POST">
         <label>Probability of Fraud</label>
             <input type="text" name="probability" placeholder="Probability of Fraud" value="Probability of Fraud">
-                 
+                
         <label>Transaction Amount</label>
             <input type="text" name="transaction_amount" placeholder="Transaction Amount" value="Transaction Amount">
     </form>
+
     <form action="/predict" method="POST">
+
         <label>CCFA Customer A:</label>
         <select name="customer_a">
             <datalist>
@@ -25,9 +28,11 @@
                 <option value="No">No</option>
             </datalist>
         </select>
+        
             <option value="Yes">Yes</option>
             <option value="No">No</option>
         </select>
+
         <label>CCFA Customer B:</label>
         <select name="customer_b">
             <option value="Yes">Yes</option>
@@ -35,6 +40,7 @@
         </select>
         </select>
         <br>
+
         <label>Fraud Text:</label>
         <input type="text" name="fraud_text" placeholder="Is Fraud" value="Is Fraud">
         <br>
@@ -42,13 +48,6 @@
         <input type="text" name="fraud_text" placeholder="Is NOT Fraud" value="Is NOT Fraud">
         <br>
         <button>Submit</button>
-        <br>
-
-        <label>Probability of Fraud</label>
-            <input type="text" name="probability" placeholder="Probability of Fraud" value="Probability of Fraud">
-        
-        <label>Transaction Amount</label>
-            <input type="text" name="transaction_amount" placeholder="Transaction Amount" value="Transaction Amount">
-    </form>
+    </form>    
 </body>
 </html>
