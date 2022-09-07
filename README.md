@@ -17,7 +17,7 @@ Flask application for feature analysis involving fraud detection, loan approval 
 2. Navigate to the application's URL - `http://localhost:5000/`
 3. Upload a CSV file - `creditcard.csv`
 4. Select the target column - `Class`
-5. Select the features to analyze - `V1`, `V2`, `V3`, `V4`, `V5`, `V6`, `V7`, `V8`, `V9`, `V10`, `V11`, `V12`, `V13`, `V14`, `V15`, `V16`, `V17`, `V18`, `V19`, `V20`, `V21`, `V22`, `V23`, `V24`, `V25`, `V26`, `V27`, `V28`, `Amount`
+5. Select the features to analyze - `Amount`, `Is Fraud`, etc.
 6. Click the "Analyze" button - `Analyze`
 
 ## Contributing
