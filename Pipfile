@@ -9,6 +9,7 @@ flask-sqlalchemy = "*"
 jinja2 = "==3.0.0"
 pandas = "*"
 lightgbm = "*"
+gunicorn = "*"
 
 [dev-packages]
 
