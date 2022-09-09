@@ -1,1 +1,1 @@
-web: gunicorn "webapp:create_app()" --bind
+web: gunicorn "webapp/app:app" --bind
