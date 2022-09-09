@@ -1,1 +1,1 @@
-web: gunicorn "webapp/app:app" --bind
+web: gunicorn "webapp:app"
