@@ -1,1 +1,1 @@
-web: "webapp:create_app()"
+web: "webapp:app.py"
