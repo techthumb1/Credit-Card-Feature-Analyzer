@@ -22,6 +22,12 @@ class SilentRegressor(lgb.LGBMRegressor):
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
+def create_app():
+    app = Flask(__name__)
+
+    return app
+
+
 
 model = os.path.join(os.path.dirname(__file__), "classification_model.pkl")
 app = Flask(__name__)
