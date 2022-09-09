@@ -1,44 +1,22 @@
+<!-- Need a template for our predict if transaction is Fraud or NOT Fraud-->
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Result</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" type="text/css"/>
-  </head>
-  <body>
-    <div class="testbox1">
-      <form action="/predict" method="POST" target="_blank">
-        <div class="banner">
-          <h1>Prediction Result</h1>
-        </div>
-        <h2 style="text-align: center;"> Given the information on the form, each customer's transactions will return the following: </h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Gradient Boost Classifier Prediction</title>
+</head>
+<body>
+    <h1> LGBClassifier on Credit Card Transactions</h1>
+    <h3> Predict if transaction is Fraud or NOT Fraud</h3>
+        <div>
+            <form action="/predict" method="POST">
+                <label for="amount">Amount</label>
+                <input type="text" id="amount" name="amount" placeholder="Amount of transaction">
+                <input type="submit" value="Submit">
 
-        <div class="prediction_res">
-          <div class="thumbnail">
-            {% if prediction [0]== "No" %}
-            <h3>No</h3>
-            <img src="static/images/happyface.jpeg" class="emoji" />
-            <div class = "recomendations">
-              <h2 style="text-align: center;" class= "recom">Transaction NOT fraud</h2>
-            </div>
-            {% endif %}
-          </div>
-          <div class="thumbnail">
-            {% if prediction[0] == "Yes" %}
-            <h3>Yes</h3>
-            <img src="static/images/sadface.png" class="emoji" />
-            <div class = "recomendations">
-              <h2 class= "recom">Recommendations:</h2>
-              <ul>
-                <li>Cancel all pending transactions.</li>
-                <li>Suspend account until further notification.</li>
-                <li>Submit issue to Resolutions Department.</li>
-              </ul>
-            </div>
-            {% endif %}
-          </div>
-        </div>
-      </form>
-    </div>
-    
-  </body>
+            </form>
+        </div> 
+</body>
 </html>
