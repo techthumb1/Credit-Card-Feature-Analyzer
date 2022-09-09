@@ -58,7 +58,6 @@ def prediction_results():
         if col_type == 'object' or col_type.name == 'category':
             cct1[col] = cct1[col].astype('category')
     
-    # Split 'Is Fraud' into binary classes
     y = cct1['Is Fraud?'].apply(lambda value: 1 if value == 'Yes' else 0)
     #y = cct1['Is Fraud?']
     X = cct1.drop(['Is Fraud?'],axis=1)
