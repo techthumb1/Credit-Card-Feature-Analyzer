@@ -100,6 +100,8 @@ def prediction_results():
     return render_template('results.html', y_pred=y_pred)
 
 
+
 if __name__ == '__main__':
     app = create_app()
     app.run(debug=True)
+
