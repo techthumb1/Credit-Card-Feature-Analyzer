@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
-from app import app
 import numpy as np
 import pickle
 import os
