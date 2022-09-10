@@ -12,6 +12,7 @@ lightgbm = "*"
 gunicorn = "*"
 gevent = "*"
 websocket = "*"
+flask-caching = "*"
 
 [dev-packages]
 
