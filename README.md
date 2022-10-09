@@ -1,5 +1,5 @@
 # Credit-Card-Feature-Analyzer
-Flask application for feature analysis involving fraud detection, loan approval rate, and personal recommendations.
+Flask application for feature analysis involving fraud detection and a recommender system for fraud protection services.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -48,7 +48,6 @@ Flask application for feature analysis involving fraud detection, loan approval 
 
 ## Acknowledgements
 - [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-- [othneildrew](
 
 ## Author
 Jason Robinson

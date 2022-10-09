@@ -12,7 +12,6 @@ from lightgbm import plot_importance
 from sklearn.metrics import confusion_matrix
 import pickle
 
-
 class SilentRegressor(lgb.LGBMRegressor):
     def fit(self, *args, **kwargs):
         with warnings.catch_warnings():
@@ -23,8 +22,9 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 
-model = os.path.join(os.path.dirname(__file__), "classification_model.pkl")
 app = Flask(__name__)
+
+model = os.path.join(os.path.dirname(__file__), "classification_model.pkl")
 
 
 with open(model, 'rb') as f:
