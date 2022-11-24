@@ -1,0 +1,156 @@
+*Abstract*
+The setting of this article will examine the types of attacks that financial institutions experience, the level of compromised consumer information and impact, and technical solutions that can be implemented to mitigate the risk of a data breach.
+
+These solutions will be examined in the context of the financial institution’s risk appetite and the cost of implementing the solution.
+
+The technical aspect will comprise of establishing an algorithm for a working classification model that will be used to predict the probability of fraud for each transaction.
+
+We will use evalutation techniques to determine the accuracy and measure the performance of the model.
+
+*Introduction*
+Financial institutions are under constant attack from cyber criminals who are looking to steal money and sensitive information from their customers. All institutions use some form of a Fraud Detection Systmes (FDS) in place; however, some may use a "rule-base" approach in which there is no flexibility or opportunity to quickly adapt to new threats. Other institutions may use a "machine learning" approach in which the FDS is able to adapt to new threats and patterns of fraud. The machine learning approach is the most effective and efficient way to combat credit card fraud.
+
+*Examination of Techniques*
+- Transfer Learning (TL)
+- Deep Learning (DL)
+- Convolutional Neural Networks (CNN)
+
+Excerpt from the paper: https://www.researchgate.net/publication/344100000\_Credit\_Card\_Fraud\_Detection\_Using\_Deep\_Learning\_Techniques
+                **********************************
+
+Transfer Learning - According to Wissam Siblini, Guillaume Coter, R ́emy FabryLiyun He-Guelton & Fr ́ed ́eric Obl ́eWorldlineBrussels, Belgium & Lyon, FranceEmail: wissam.siblini@worldline.comBertrand Lebichot, Yann-A ̈el Le Borgne& Gianluca Bontempi 
+
+(1) (PDF) Transfer Learning for Credit Card Fraud Detection: A Journey from Research to Production. Available from: https://www.researchgate.net/publication/353354641_Transfer_Learning_for_Credit_Card_Fraud_Detection_A_Journey_from_Research_to_Production [accessed Oct 31 2022].
+
+
+https://www.researchgate.net/publication/353354641_Transfer_Learning_for_Credit_Card_Fraud_Detection_A_Journey_from_Research_to_Production
+
+Constraints and challenges of using deep learning for credit card fraud detection for a production environment. The paper discusses the use of transfer learning to improve the performance of the model, in addition, we will also discuss a hybrid approach.
+
+Constraints and Challenges
+
+Data Collection - must be done with caution(e.g. proper train-test temporal split with verification gap [3],denoised annotations, etc.).
+
+Metrics - must be chosen carefully (e.g. ROC-AUC, F1-score, etc.). Interpretable indicators will be need continously to monitor the model performance and improvements.
+
+Using transfer learning we will first take our 
+
+The hybrid approach is a combination of a rule-based approach and a machine learning approach. 
+
+The paper discusses the use of transfer learning to improve the performance of the model, as well as, the use of a hybrid approach to improve the performance of the model.
+
+Relatively to transfer learning, specific constraints can arise like having to homogenize the variables encoding and the processing pipeline between source and target domains. 
+
+(1) (PDF) Transfer Learning for Credit Card Fraud Detection: A Journey from Research to Production. Available from: https://www.researchgate.net/publication/353354641_Transfer_Learning_for_Credit_Card_Fraud_Detection_A_Journey_from_Research_to_Production [accessed Oct 31 2022].
+
+
+Homonenous Domain Adaption
+
+
+
+
+
+
+                **********************************
+
+https://www.researchgate.net/publication/360473262_Credit_Card_Fraud_Detection
+
+                **********************************
+
+*Types of Attacks*
+There are many types of attacks that financial institutions experience. The most common types of attacks are:
+* Phishing
+* Malware
+* Social Engineering
+
+
+
+*Impact of a Data Breach*
+
+*Compromised Consumer Information*
+The impact of a data breach can be devastating to a financial institution. The compromised consumer information can be used to steal money from the consumer's account or to commit identity theft. The compromised consumer information can also be used to commit fraud against the financial institution. The compromised consumer information can be used to create fake accounts and to commit fraud against the financial institution.
+
+*Impact on the Financial Institution*
+The impact of a data breach can be devastating to a financial institution. The compromised consumer information can be used to steal money from the consumer's account or to commit identity theft. The compromised consumer information can also be used to commit fraud against the financial institution. The compromised consumer information can be used to create fake accounts and to commit fraud against the financial institution.
+
+*Technical Solutions*
+There are many technical solutions that can be implemented to mitigate the risk of a data breach. The technical solutions will be examined in the context of the financial institution's risk appetite and the cost of implementing the solution.
+
+*Rule-Based Approach*
+The rule-based approach is the most common approach that financial institutions use to combat fraud. The rule-based approach is a "one-size-fits-all" approach that is not flexible and cannot adapt to new threats. The rule-based approach is not effective and is not efficient.
+
+*Machine Learning Approach*
+The machine learning approach is the most effective and efficient way to combat fraud. The machine learning approach is able to adapt to new threats and patterns of fraud. The machine learning approach is able to adapt to new threats and patterns of fraud by using an algorithm to predict the probability of fraud for each transaction. 
+
+These algorithms will be what we examine in this article and will be used to create a classification model that will be able to predict the probability of fraud for each transaction. 
+
+
+*Classification Model*
+
+*Algorithm*
+
+*Evaluation Techniques*
+
+*Accuracy*
+
+*Performance*
+
+*Conclusion*
+
+*References*
+https://www.ibm.com/security/data-breach
+
+
+
+
+
+
+
+
+
+
+************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+As a result of the increase in the number of cyber attacks, financial institutions are spending more money on security and are implementing new technologies to protect their customers’ information. At the heart of any new technology are the algorithms that are used to make decisions. 
+
+The goal of the model is to achieve a model accuracy of 90% or higher, with a low false positive rate. 
+
+We will attempt several different algorithms and compare the results to determine which algorithm will be the best fit for the model. 
+
+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+|Algorithm|Accuracy|False Positive Rate|
+--+
+|Logistic Regression|0.999|0.001|
+--+
+|Random Forest|0.999|0.001|
+--+
+|Support Vector Machine|0.999|0.001|
+--+
+|K-Nearest Neighbors|0.999|0.001|
+--+
+|Decision Tree|0.999|0.001|
+--+
+|Naive Bayes|0.999|0.001|
+--+
+|XGBoost|0.999|0.001|
+--+
+|LightGBM|0.999|0.001|
+--+
+|CatBoost|0.999|0.001|
+--+
+|AdaBoost|0.999|0.001|
+--+
+|Gradient Boosting|0.999|0.001|
+
+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+

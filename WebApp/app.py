@@ -46,7 +46,9 @@ def prediction_results():
     cct1['Amount'] = cct1['Amount'].apply(lambda value: float(value.split("$")[1]))
     cct1['Hour'] = cct1['Time'].apply(lambda value: int(value.split(":")[0]))
     cct1['Minutes'] = cct1['Time'].apply(lambda value: int(value.split(":")[1]))
+    
     cct1.drop(['Time'], axis=1, inplace=True)
+
     cct1['Merchant Name'] = cct1['Merchant Name'].astype("object")
     cct1['Card'] = cct1['Card'].astype("object")
     cct1['Use Chip'] = cct1['Use Chip'].astype("object")
