@@ -1,5 +1,6 @@
-# Credit-Card-Feature-Analyzer
-Flask application for feature analysis involving fraud detection and a recommender system for fraud protection services.
+# Credit Card Fraud Detection Stystem
+
+Flask application for feature analysis involving fraud detection and a recommender system for fraud protection services. Incorporating the use of SOTA machine learning algorithms and deep learning techniques.
 
 ## Table of Contents
 - [Installation](#installation)
