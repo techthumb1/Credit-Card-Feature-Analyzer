@@ -1,0 +1,204 @@
+Title: Credit Card Fraud Detection System: CCFDS
+Author: Jason Robinson
+Date: 2022-10-12
+Version: 1.0
+Type: Technical Article 
+
+Abstract: This article describes the Credit Card Fraud Detection System (CCFDS) which is a system that can be used to detect fraudulent credit card transactions via user, bank, online entity, financial institutions (will have extra layers technology embedded into the security).
+
+
+. The system is based on a neural network that is trained using a dataset of credit card transactions. The system is able to detect fraudulent transactions with an accuracy of 99.9% and a false positive rate of 0.1%. The system is implemented in Python and is available as open source software.
+
+
+
+
+
+
+Fraud is a major problem that plagues merchants, financial institutions, and consumers. Due to the increase in online transactions, mobile banking, and the use of credit cards, the problem of credit card fraud specifically has become more prevalent in recent years. Traditional Fraud Detection Systems (FDS), are no longer effective at keeping up with the rate of attacks and exploits from sophisticated hackers. 
+Companies are now looking to Artificial Intelligence (AI) and Machine Learning (ML) to provide more accurate and timely detection of fraudulent transactions. 
+
+This project will be an overview of the current state of credit card fraud detection systems, and will provide a detailed description of the design and implementation of a new credit card fraud detection system. The system will be designed to be a standalone application that can be used by merchants, financial institutions, and consumers to detect fraudulent transactions. 
+
+Traditionally, FDS have been designed to detect fraudulent transactions by looking for patterns in the data. These patterns are usually based on the amount of the transaction, the location of the transaction, and the time of the transaction. These patterns are then used to create a set of rules that are used to determine if a transaction is fraudulent or not. This was considered the Rules Based Approach (RBA), and was the most common approach until the development of higher computing power and the advent of AI and ML. 
+
+The system that will be designed be one of high security features using 
+
+This project will focus on the development and engineering of a Credit Card Fraud Detection System (CCFDS), that will  
+
+# Break down the project in section according to development and running the application
+
+## 1. Introduction
+
+### 1.1 Background
+
+### 1.2 Problem Statement
+
+### 1.3 Project Objectives
+
+### 1.4 Scope
+
+### 1.5 Limitations
+
+
+# 2. Literature Review
+
+## 2.1 Credit Card Fraud Detection Systems
+
+## 2.2 Machine Learning
+
+## 2.3 Artificial Intelligence
+
+## 2.4 Deep Learning
+
+## 2.5 Neural Networks
+
+## 2.6 Convolutional Neural Networks
+
+## 2.7 Recurrent Neural Networks
+
+## 2.8 Long Short Term Memory Networks
+
+## 2.9 Autoencoders
+
+## 2.10 Generative Adversarial Networks
+
+## 2.11 Transfer Learning
+
+## 2.12 Reinforcement Learning
+
+## 2.13 Natural Language Processing
+
+## 2.14 Sentiment Analysis
+
+
+# 3. Methodology
+
+## 3.1 Data Collection
+
+## 3.2 Data Preprocessing
+
+## 3.3 Data Analysis
+
+## 3.4 Data Visualization
+
+## 3.5 Data Modeling
+
+## 3.6 Data Evaluation
+
+## 3.7 Data Deployment
+
+
+# 4. Results
+
+## 4.1 Data Collection
+
+## 4.2 Data Preprocessing
+
+
+# 5. Conclusion
+
+## 5.1 Summary
+
+## 5.2 Future Work
+
+## 5.3 References
+
+## 5.4 Appendices
+
+## 5.5 Appendix A: Data Collection
+
+## 5.6 Appendix B: Data Preprocessing
+
+## 5.7 Appendix C: Data Analysis
+
+## 5.8 Appendix D: Data Visualization
+
+## 5.9 Appendix E: Data Modeling
+
+## 5.10 Appendix F: Data Evaluation
+
+## 5.11 Appendix G: Data Deployment
+
+
+# 6. Bibliography
+
+## 6.1 Books
+
+## 6.2 Journals
+
+## 6.3 Websites
+
+## 6.4 Videos
+
+## 6.5 Other
+
+
+# 7. Appendix
+
+## 7.1 Appendix A: Data Collection
+
+## 7.2 Appendix B: Data Preprocessing
+
+## 7.3 Appendix C: Data Analysis
+
+## 7.4 Appendix D: Data Visualization
+
+## 7.5 Appendix E: Data Modeling
+
+## 7.6 Appendix F: Data Evaluation
+
+## 7.7 Appendix G: Data Deployment
+
+
+# 8. Glossary
+
+## 8.1 Glossary of Terms
+
+## 8.2 Glossary of Acronyms
+
+## 8.3 Glossary of Symbols
+
+## 8.4 Glossary of Abbreviations
+
+## 8.5 Glossary of Equations
+
+## 8.6 Glossary of Figures
+
+## 8.7 Glossary of Tables
+
+## 8.8 Glossary of Algorithms
+
+## 8.9 Glossary of Code
+
+## 8.10 Glossary of Data
+
+## 8.11 Glossary of Data Structures
+
+## 8.12 Glossary of Data Types
+
+## 8.13 Glossary of Data Formats
+
+## 8.14 Glossary of Data Files
+
+## 8.15 Glossary of Data Sets
+
+## 8.16 Glossary of Data Fields
+
+## 8.17 Glossary of Data Values
+
+## 8.18 Glossary of Data Structures
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
