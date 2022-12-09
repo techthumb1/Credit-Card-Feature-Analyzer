@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection Stystem
+# Credit Card Fraud Detection System
 
 Flask application for feature analysis involving fraud detection and a recommender system for fraud protection services. Incorporating the use of SOTA machine learning algorithms and deep learning techniques.
 
@@ -16,7 +16,7 @@ Flask application for feature analysis involving fraud detection and a recommend
 ## Usage
 1. Run the application - `python app.py`
 2. Navigate to the application's URL - `http://localhost:5000/`
-3. Upload a CSV file - `creditcard.csv`
+3. Upload a CSV file - `transactions.csv`
 4. Select the target column - `Class`
 5. Select the features to analyze - `Amount`, `Is Fraud`, etc.
 6. Click the "Analyze" button - `Analyze`
@@ -47,8 +47,6 @@ Flask application for feature analysis involving fraud detection and a recommend
 - [HTML](https://html.spec.whatwg.org/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-## Acknowledgements
-- [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
 ## Author
 Jason Robinson
