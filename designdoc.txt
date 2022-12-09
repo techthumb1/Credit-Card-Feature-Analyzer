@@ -11,9 +11,6 @@ Abstract: This article describes the Credit Card Fraud Detection System (CCFDS) 
 
 
 
-
-
-
 Fraud is a major problem that plagues merchants, financial institutions, and consumers. Due to the increase in online transactions, mobile banking, and the use of credit cards, the problem of credit card fraud specifically has become more prevalent in recent years. Traditional Fraud Detection Systems (FDS), are no longer effective at keeping up with the rate of attacks and exploits from sophisticated hackers. 
 Companies are now looking to Artificial Intelligence (AI) and Machine Learning (ML) to provide more accurate and timely detection of fraudulent transactions. 
 

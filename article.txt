@@ -47,10 +47,6 @@ Relatively to transfer learning, specific constraints can arise like having to h
 Homonenous Domain Adaption
 
 
-
-
-
-
                 **********************************
 
 https://www.researchgate.net/publication/360473262_Credit_Card_Fraud_Detection
@@ -99,6 +95,8 @@ These algorithms will be what we examine in this article and will be used to cre
 
 *References*
 https://www.ibm.com/security/data-breach
+https://www.ftc.gov/reports/consumer-sentinel-network-data-book-2021
+
 
 
 
@@ -154,3 +152,7 @@ We will attempt several different algorithms and compare the results to determin
 |Gradient Boosting|0.999|0.001|
 
 --+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+
+
+
+Fraud detection alaysis with use of machine learning algorithms and deep learning techniques. 
