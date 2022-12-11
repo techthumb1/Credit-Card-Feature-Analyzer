@@ -7,7 +7,7 @@ Type: Technical Article
 Abstract: This article describes the Credit Card Fraud Detection System (CCFDS) which is a system that can be used to detect fraudulent credit card transactions via user, bank, online entity, financial institutions (will have extra layers technology embedded into the security).
 
 
-. The system is based on a neural network that is trained using a dataset of credit card transactions. The system is able to detect fraudulent transactions with an accuracy of 99.9% and a false positive rate of 0.1%. The system is implemented in Python and is available as open source software.
+The system is based on a neural network that is trained using a dataset of credit card transactions. The system is able to detect fraudulent transactions with an accuracy of 99.9% and a false positive rate of 0.1%. The system is implemented in Python and is available as open source software.
 
 
 
