@@ -1,0 +1,182 @@
+// 
+Give statistics on credit card fraud annually in the US
+https://www.fool.com/the-ascent/research/identity-theft-credit-card-fraud-statistics/
+//
+Case Study: How to Prevent Credit Card Fraud
+
+The act of committing credit card fraud has risen dramatically over recent years, in-fact between 2019 and 2020 the number of fraudulent transactions doubled in intensity. The pandemic has been a catalyst for this increase, as many people chose to make online purchases and payments. This has led to a rise in the number of credit card fraud cases, as well as the amount of money lost to fraudsters.
+
+The most common type of credit card fraud is identity theft, which is when a fraudster steals your personal information and uses it to make purchases. This can be done in a variety of ways, including through phishing emails, malware, and even dumpster diving. Once they have your information, they can use it to make purchases online or over the phone. They can also use it to open new credit cards in your name, which can lead to even more debt.
+
+The second most common type of credit card fraud is skimming, which is when a fraudster uses a device to steal your credit card information. This can be done in a variety of ways, including through a skimmer that is placed on an ATM or gas pump, or through a skimmer that is placed on a credit card reader. Once they have your information, they can use it to make purchases online or over the phone. They can also use it to open new credit cards in your name, which can lead to even more debt.
+
+The third most common type of credit card fraud is account takeover, which is when a fraudster gains access to your credit card account and uses it to make purchases. This can be done in a variety of ways, including through phishing emails, malware, and even dumpster diving. Once they have your information, they can use it to make purchases online or over the phone. They can also use it to open new credit cards in your name, which can lead to even more debt.
+
+It is estimated that credit card fraud amounts to costing the US economy $8.1 billion annually, with the average loss per victim being $1,000. 8.1 billion customers for which, if insured, will be reimbursed buy the bank.
+
+The number of entities and individuals that are affected by credit card fraud is staggering. In 2021 the Consumer Financial Protection Bureau (CFPB) reported that 15.4 million Americans were victims of identity theft, with the average loss per victim being $1,000. This means that the total amount of money lost to identity theft in 2021 was $15.4 billion. 
+
+The purpose for this wiriting is to determine the methods to prevent credit card fraud from occurring before the transaction initiated, which requires a more complex approach than the traditional methods of fraud detection.
+
+
+Proposal
+
+The purpose of this proposal is to prevent credit card fraud from occurring before the transaction initiated, which requires a more complex approach than the traditional methods of fraud detection. The proposal is to use a combination of machine learning and blockchain technology to create a system that can detect fraud before it occurs. This system will be able to detect fraud by analyzing the data that is collected from the credit card transaction. The data that will be analyzed includes the name, address, and phone number of the person who is making the purchase, as well as the credit card number, expiration date, and security code. This data will be analyzed using a machine learning algorithm that will be able to detect patterns in the data that are associated with fraud. Once the algorithm has detected a pattern, it will then be able to alert the credit card company that the transaction is fraudulent. This will allow the credit card company to stop the transaction before it is completed, which will prevent the fraudster from being able to make any purchases with the stolen credit card information.
+
+The unfortunate truth is that many of today's models are ineffective at eliminating or greatly reducing the number of fraudulent transactions, which affect the merchant and the financial institution costing them millions of dollars annually. 
+
+Common Machine Learning Approaches to Fraud Detection
+
+Depending on 'how' we want to classify our model we can use a variety of detection techiniques. The most common are:
+    • SVM (Support Vector Machine)
+    • Random Forest
+    • Logistic Regression
+    • Naive Bayes
+
+SVM will be used to classify the data into two categories, fraudulent or not fraudulent 
+
+Logistic regression will allow us to determine the liklihood of a transaction being fraudulent. It is a supervised learning algorithm that can be used for classification problems. It is a predictive analysis algorithm and based on the concept of probability. In this technique, we pass the training data through the regression algorithm and it builds a logistic function that can be used to predict the class of unknown cases.
+
+In applying a Random Forest model, the bagging technique is used to create a large number of decision trees. The final prediction is based on the majority of the predictions made by the individual decision trees. The logic behind this is that a large number of relatively uncorrelated models (trees) operating as a committee will outperform any of the individual constituent models. 
+
+Naive Bayes is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature. For example, a fruit may be considered to be an apple if it is red, round, and about 3 inches in diameter. Even if these features depend on each other or upon the existence of the other features, a Naive Bayes classifier considers all of these properties to independently contribute to the probability that this fruit is an apple.
+
+
+
+Things to consider:
+    • Misclassification cost
+    • False positive rate
+    • False negative rate
+    • Accuracy
+    • Precision
+    • Recall
+    • F1 score
+    • ROC curve
+    • AUC score
+
+Machine learning techiniques:
+    • SVM (Support Vector Machine)
+    • Random Forest
+    • Logistic Regression
+    • Naive Bayes
+
+The most commonly used deep learning techniques are:
+    • Autoencoders
+    • Convolutional Neural Networks (CNNs)
+    • Recurrent Neural Networks (RNNs)
+    • Long Short-Term Memory Networks (LSTMs)
+    • Generative Adversarial Networks (GANs)
+    • Variational Autoencoders (VAEs)
+
+Statistics on credit card fraud annually in the US
+(Go over US statistics - 2019, 2020, 2021)
+
+    • 2019: 16.7 million victims of identity theft - (check to confirm)
+    • 2020: 15.4 million victims of identity theft - (check to confirm)
+    • 2021: 15.4 million victims of identity theft - (check to confirm)
+     
+    Financial institution losses from credit card fraud in the US
+
+    • 2019: $8.1 billion - (check to confirm)
+    • 2020: $8.1 billion - (check to confirm)
+    • 2021: $8.1 billion - (check to confirm)
+
+    Insurance company losses from credit card fraud in the US
+
+    • 2019: $1.5 billion - (check to confirm)
+    • 2020: $1.5 billion - (check to confirm)
+    • 2021: $1.5 billion - (check to confirm)
+
+    Retiler losses from credit card fraud in the US
+
+    • 2019: $1.5 billion - (check to confirm)
+    • 2020: $1.5 billion - (check to confirm)
+    • 2021: $1.5 billion - (check to confirm)
+
+
+
+Nilson Report
+
+    • CNP scenarios are the most common type of fraud, accounting for 54% of all fraud losses in 2019.
+    • CNP fraud losses totaled $8.1 billion in 2019, up 3.5% from 2018.
+    
+    • All Purchase Volume Worldwide = (CNP + POS + ATM)
+
+
+
+
+
+Credit Card Detection System
+
+Typically consist of 5 layers of control:
+    • Terminal (POS) - The terminal is the point of sale where the card is swiped or inserted. The terminal is the first line of defense against fraud.
+    • Transaction blocking - The transaction is blocked if the card is reported lost or stolen, or if the card is not authorized for the transaction.
+    • Scoring Rules - The transaction is blocked if the transaction does not meet the scoring rules.
+    • Data Driven Model (DDM) - The transaction is blocked if the transaction does not meet the DDM rules.
+    • Investigators - The transaction is blocked if the transaction does not meet the investigator rules.
+
+#Terminal is the first layer of control and is responsible for conducting security checks on payment #requests which are performed in real time. Requests that are not accepted will be rejected and the #customer will be notified. 
+
+Rules will be considered features/modules in the model for each layer - (Scoring and Transaction Blocking). 
+DDM - Classifier or other form of statistical analysis. (Primary goal is to return precise alerts)
+Investigators - Human intervention with use of tools and probabilities of the risk factor for each transaction.
+    """
+    In a real-world FDS, investigators can only check few alerts per day [Car18, DP15, Kri10] as this process can be long and tedious. Therefore, the primary goal of a DDM is to return precise alerts, as investigators might ignore further alerts when too many false alarms are reported.
+    """
+    Can this be automated? - (Investigator layer)
+    Can this be solved? - (Investigator layer)
+
+
+
+DATA STRUCTURES INCORPORATED    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Techniques:
+SMOTE (Synthetic Minority Oversampling Technique), is a technique used to balance the data set. It is used to create synthetic data points in the minority class. The algorithm works by randomly choosing one of the k-nearest-neighbors and using it to create a similar, but randomly tweaked, new observations. The process is repeated until the desired number of new synthetic observations is reached.
+
+The SMOTE algorithm is a data augmentation technique that is used to balance the class distribution of a dataset. It is a popular oversampling technique that is used to increase the number of minority class examples in a dataset. The algorithm works by randomly choosing one of the k-nearest-neighbors and using it to create a similar, but randomly tweaked, new observations. The process is repeated until the desired number of new synthetic observations is reached. 
+SMOTE is used primarily for classification problems with datasets that are imbalanced.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References:
+
+https://www.fool.com/the-ascent/research/identity-theft-credit-card-fraud-statistics/
+
+https://www.statista.com/statistics/273476/number-of-credit-card-fraud-cases-in-the-us/
+
+
